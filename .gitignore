@@ -1,0 +1,14 @@
+#LR_4
+$ cat .gitignore
+*.txt
+#
+*.[oa]
+*~
+*.a
+!lib.a
+subdir/TODO
+/TODO
+build/
+doc/*.txt
+doc/**/*.pdf
+EOF
